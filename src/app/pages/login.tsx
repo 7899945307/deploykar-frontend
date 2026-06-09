@@ -205,7 +205,7 @@ export default function Login() {
               </div>
               <Button type="submit" className="w-full" disabled={isLoading}>
                 {isLoading && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
-                Log In
+                Log In madarchod bsdk randike
               </Button>
             </form>
 

@@ -18,10 +18,10 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-sm mb-8"
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/5 text-emerald-400 text-sm mb-8"
             >
               <Zap className="w-3.5 h-3.5" />
-              <span>Now with auto-scaling infrastructure</span>
+              <span>🚀 Auto-deploy is LIVE — powered by Cloudflare CDN</span>
             </motion.div>
 
             <motion.h1
@@ -30,8 +30,8 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl lg:text-7xl font-bold text-foreground tracking-tight leading-[1.1] mb-6"
             >
-              Ship faster.<br />
-              <span className="text-primary">Scale effortlessly.</span>
+              Deploy in seconds.<br />
+              <span className="text-primary">Not minutes.</span>
             </motion.h1>
 
             <motion.p

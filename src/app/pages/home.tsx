@@ -42,6 +42,8 @@ export default function Home() {
             >
               Deploy frontend, backend, and full-stack apps with one push.
               Automated builds, SSL, CDN, and scaling — all handled.
+              <br /><br />
+              <span className="text-emerald-400 font-semibold">✅ This text was auto-deployed via GitHub push!</span>
             </motion.p>
 
             <motion.div

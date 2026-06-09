@@ -43,7 +43,7 @@ export default function Home() {
               Deploy frontend, backend, and full-stack apps with one push.
               Automated builds, SSL, CDN, and scaling — all handled.
               <br /><br />
-              <span className="text-emerald-400 font-semibold">✅ This text was auto-deployed via GitHub push!</span>
+              <span className="text-emerald-400 font-semibold">✅ v2 - Auto-deploy is working! Pushed at {new Date().toISOString().slice(0,16)}</span>
             </motion.p>
 
             <motion.div

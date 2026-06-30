@@ -31,7 +31,7 @@ export default function Home() {
               className="text-5xl lg:text-7xl font-bold text-foreground tracking-tight leading-[1.1] mb-6"
             >
               Deploy in seconds.<br />
-              <span className="text-primary">Not minutes.</span>
+              <span className="text-primary">Not lowdekebal bsdike.</span>
             </motion.h1>
 
             <motion.p
